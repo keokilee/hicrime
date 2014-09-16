@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5ECA584719C83C110021C311 /* BasicViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA584619C83C110021C311 /* BasicViewControllerSpec.m */; };
+		5ECA584919C83C8B0021C311 /* MocksControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA584819C83C8B0021C311 /* MocksControllerSpec.m */; };
+		5ECA584B19C83CEE0021C311 /* AsyncControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA584A19C83CEE0021C311 /* AsyncControllerSpec.m */; };
+		5ECA584D19C83D500021C311 /* PendingControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA584C19C83D500021C311 /* PendingControllerSpec.m */; };
 		5EF433C119C83B4700514481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF433C019C83B4700514481 /* main.m */; };
 		5EF433C419C83B4700514481 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF433C319C83B4700514481 /* AppDelegate.m */; };
 		5EF433C719C83B4700514481 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF433C619C83B4700514481 /* ViewController.m */; };
 		5EF433CA19C83B4700514481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF433C819C83B4700514481 /* Main.storyboard */; };
 		5EF433CC19C83B4700514481 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF433CB19C83B4700514481 /* Images.xcassets */; };
 		5EF433CF19C83B4700514481 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF433CD19C83B4700514481 /* LaunchScreen.xib */; };
-		5EF433DB19C83B4700514481 /* HICrimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF433DA19C83B4700514481 /* HICrimeTests.m */; };
+		94DB189C99144F50B2C287A3 /* libPods-HICrime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BFDCD28EA144E0B7065E72 /* libPods-HICrime.a */; };
+		C4B4D23AEB5244979CE064D7 /* libPods-HICrimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB2233791EA46748E3FF76F /* libPods-HICrimeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41BFDCD28EA144E0B7065E72 /* libPods-HICrime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HICrime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECA584619C83C110021C311 /* BasicViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewControllerSpec.m; sourceTree = "<group>"; };
+		5ECA584819C83C8B0021C311 /* MocksControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MocksControllerSpec.m; sourceTree = "<group>"; };
+		5ECA584A19C83CEE0021C311 /* AsyncControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncControllerSpec.m; sourceTree = "<group>"; };
+		5ECA584C19C83D500021C311 /* PendingControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PendingControllerSpec.m; sourceTree = "<group>"; };
 		5EF433BB19C83B4700514481 /* HICrime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HICrime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF433BF19C83B4700514481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EF433C019C83B4700514481 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,7 +49,9 @@
 		5EF433CE19C83B4700514481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5EF433D419C83B4700514481 /* HICrimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HICrimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF433D919C83B4700514481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EF433DA19C83B4700514481 /* HICrimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HICrimeTests.m; sourceTree = "<group>"; };
+		AD9CF452EACA412D9572CD10 /* Pods-HICrime.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HICrime.xcconfig"; path = "Pods/Pods-HICrime.xcconfig"; sourceTree = "<group>"; };
+		CBB2233791EA46748E3FF76F /* libPods-HICrimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HICrimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E043F5FC2C45739C9F67E8 /* Pods-HICrimeTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HICrimeTests.xcconfig"; path = "Pods/Pods-HICrimeTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94DB189C99144F50B2C287A3 /* libPods-HICrime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B4D23AEB5244979CE064D7 /* libPods-HICrimeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +80,9 @@
 				5EF433BD19C83B4700514481 /* HICrime */,
 				5EF433D719C83B4700514481 /* HICrimeTests */,
 				5EF433BC19C83B4700514481 /* Products */,
+				AD9CF452EACA412D9572CD10 /* Pods-HICrime.xcconfig */,
+				C6502F28810347149AEA2CE4 /* Frameworks */,
+				F6E043F5FC2C45739C9F67E8 /* Pods-HICrimeTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,8 +122,11 @@
 		5EF433D719C83B4700514481 /* HICrimeTests */ = {
 			isa = PBXGroup;
 			children = (
-				5EF433DA19C83B4700514481 /* HICrimeTests.m */,
 				5EF433D819C83B4700514481 /* Supporting Files */,
+				5ECA584619C83C110021C311 /* BasicViewControllerSpec.m */,
+				5ECA584819C83C8B0021C311 /* MocksControllerSpec.m */,
+				5ECA584A19C83CEE0021C311 /* AsyncControllerSpec.m */,
+				5ECA584C19C83D500021C311 /* PendingControllerSpec.m */,
 			);
 			path = HICrimeTests;
 			sourceTree = "<group>";
@@ -119,6 +139,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C6502F28810347149AEA2CE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41BFDCD28EA144E0B7065E72 /* libPods-HICrime.a */,
+				CBB2233791EA46748E3FF76F /* libPods-HICrimeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EF433DE19C83B4700514481 /* Build configuration list for PBXNativeTarget "HICrime" */;
 			buildPhases = (
+				911202F302304BD990EF1BD5 /* Check Pods Manifest.lock */,
 				5EF433B719C83B4700514481 /* Sources */,
 				5EF433B819C83B4700514481 /* Frameworks */,
 				5EF433B919C83B4700514481 /* Resources */,
+				99D2D141061341A499677EB0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EF433E119C83B4700514481 /* Build configuration list for PBXNativeTarget "HICrimeTests" */;
 			buildPhases = (
+				5CC1AF447CF84CA8AE76F314 /* Check Pods Manifest.lock */,
 				5EF433D019C83B4700514481 /* Sources */,
 				5EF433D119C83B4700514481 /* Frameworks */,
 				5EF433D219C83B4700514481 /* Resources */,
+				BCB87B9AA81E4F7E8F631740 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +247,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5CC1AF447CF84CA8AE76F314 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		911202F302304BD990EF1BD5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99D2D141061341A499677EB0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-HICrime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCB87B9AA81E4F7E8F631740 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-HICrimeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5EF433B719C83B4700514481 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -229,7 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EF433DB19C83B4700514481 /* HICrimeTests.m in Sources */,
+				5ECA584719C83C110021C311 /* BasicViewControllerSpec.m in Sources */,
+				5ECA584B19C83CEE0021C311 /* AsyncControllerSpec.m in Sources */,
+				5ECA584D19C83D500021C311 /* PendingControllerSpec.m in Sources */,
+				5ECA584919C83C8B0021C311 /* MocksControllerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +440,7 @@
 		};
 		5EF433DF19C83B4700514481 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9CF452EACA412D9572CD10 /* Pods-HICrime.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HICrime/Info.plist;
@@ -351,6 +451,7 @@
 		};
 		5EF433E019C83B4700514481 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9CF452EACA412D9572CD10 /* Pods-HICrime.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HICrime/Info.plist;
@@ -361,6 +462,7 @@
 		};
 		5EF433E219C83B4700514481 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E043F5FC2C45739C9F67E8 /* Pods-HICrimeTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -380,6 +482,7 @@
 		};
 		5EF433E319C83B4700514481 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E043F5FC2C45739C9F67E8 /* Pods-HICrimeTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -412,6 +515,7 @@
 				5EF433E019C83B4700514481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EF433E119C83B4700514481 /* Build configuration list for PBXNativeTarget "HICrimeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +524,7 @@
 				5EF433E319C83B4700514481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
