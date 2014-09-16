@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) NSArray *incidents;
 
+-(void)fetchIncidents;
 @end
 
