@@ -24,4 +24,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)fetchIncidents {
+    
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 10000;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"incident" forIndexPath:indexPath];
+    return cell;
+}
+
 @end
