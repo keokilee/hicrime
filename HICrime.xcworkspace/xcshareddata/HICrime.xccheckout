@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5505BE27-828A-430A-A42C-9AB15537FFCC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HICrime</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BE1006536CBA275296F79716C8801170AD0B91C0</key>
+		<string>github.com:keokilee/hicrime.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HICrime.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BE1006536CBA275296F79716C8801170AD0B91C0</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:keokilee/hicrime.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BE1006536CBA275296F79716C8801170AD0B91C0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BE1006536CBA275296F79716C8801170AD0B91C0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HICrime</string>
+		</dict>
+	</array>
+</dict>
+</plist>
