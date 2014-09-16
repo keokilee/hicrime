@@ -14,7 +14,63 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FCCD2A422EBC4129BD58AE3C"
+               BlueprintIdentifier = "1CEB59E73ECD4944B68E5AED"
+               BuildableName = "libPods-HICrime-AFNetworkActivityLogger.a"
+               BlueprintName = "Pods-HICrime-AFNetworkActivityLogger"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C137B15BD5A24EB49954F4B6"
+               BuildableName = "libPods-HICrime-AFNetworking.a"
+               BlueprintName = "Pods-HICrime-AFNetworking"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "814A2FF8096245D9AA883D22"
+               BuildableName = "libPods-HICrimeTests-Kiwi.a"
+               BlueprintName = "Pods-HICrimeTests-Kiwi"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "97D5BCCF1F1343B29116CFF9"
+               BuildableName = "libPods-HICrimeTests-Nocilla.a"
+               BlueprintName = "Pods-HICrimeTests-Nocilla"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2604CEFE5A1441048CB9A27B"
                BuildableName = "libPods-HICrime.a"
                BlueprintName = "Pods-HICrime"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -28,7 +84,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0BEE00F0B2FC42FFA6AEAA56"
+               BlueprintIdentifier = "28200CEBBE004FF491AC6810"
                BuildableName = "libPods-HICrimeTests.a"
                BlueprintName = "Pods-HICrimeTests"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -107,7 +163,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FCCD2A422EBC4129BD58AE3C"
+            BlueprintIdentifier = "2604CEFE5A1441048CB9A27B"
             BuildableName = "libPods-HICrime.a"
             BlueprintName = "Pods-HICrime"
             ReferencedContainer = "container:Pods/Pods.xcodeproj">
